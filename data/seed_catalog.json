@@ -1,0 +1,69 @@
+{
+  "generated": "2026-09-07",
+  "note": "Live-verified on GitHub this session. Poster names stay as printed.",
+  "topics": {
+    "nerf-drive": [
+      {"full_name": "NVlabs/EmerNeRF", "stars": 641, "why": "Self-supervised 4D street NeRF", "kind": "implementation"},
+      {"full_name": "fudan-zvg/S-NeRF", "stars": 187, "why": "ICLR 2023 street-view NeRF", "kind": "implementation"},
+      {"full_name": "nerfstudio-project/nerfstudio", "stars": 11979, "why": "Production NeRF toolkit", "kind": "tool"}
+    ],
+    "urbanimplicit": [
+      {"full_name": "PJLab-ADG/neuralsim", "stars": 671, "why": "Official StreetSurf", "kind": "implementation"},
+      {"full_name": "Totoro97/NeuS", "stars": 1776, "why": "Canonical neural SDF", "kind": "implementation"},
+      {"full_name": "NVlabs/neuralangelo", "stars": 4600, "why": "High-fidelity neural surfaces", "kind": "implementation"}
+    ],
+    "depthformer": [
+      {"full_name": "DepthAnything/Depth-Anything-V2", "stars": 8775, "why": "Foundation monocular depth", "kind": "implementation"},
+      {"full_name": "LiheYoung/Depth-Anything", "stars": 8202, "why": "Original Depth Anything", "kind": "implementation"}
+    ],
+    "gaussiandrive": [
+      {"full_name": "graphdeco-inria/gaussian-splatting", "stars": 23756, "why": "Canonical 3DGS", "kind": "implementation"},
+      {"full_name": "zju3dv/street_gaussians", "stars": 1391, "why": "ECCV 2024 Street Gaussians", "kind": "implementation"},
+      {"full_name": "VDIGPKU/DrivingGaussian", "stars": 412, "why": "CVPR 2024 surround driving GS", "kind": "implementation"}
+    ],
+    "geoguidenet": [
+      {"full_name": "maturk/dn-splatter", "stars": 400, "why": "Depth/normal-guided 3DGS", "kind": "implementation"},
+      {"full_name": "hbb1/2d-gaussian-splatting", "stars": 3288, "why": "Surface-aligned Gaussians", "kind": "implementation"}
+    ],
+    "dynsurf": [
+      {"full_name": "ziyc/drivestudio", "stars": 1257, "why": "OmniRe dynamic actors", "kind": "implementation"},
+      {"full_name": "nnanhuang/S3Gaussian", "stars": 546, "why": "Self-supervised street dynamics", "kind": "implementation"}
+    ],
+    "4d-drivegs": [
+      {"full_name": "fudan-zvg/4d-gaussian-splatting", "stars": 1028, "why": "ICLR 2024 4DGS", "kind": "implementation"},
+      {"full_name": "chengweialan/DeSiRe-GS", "stars": 244, "why": "4D street GS + surface", "kind": "implementation"}
+    ],
+    "scenesem3d": [
+      {"full_name": "weiyithu/SurroundOcc", "stars": 1080, "why": "Surround-view occupancy", "kind": "implementation"},
+      {"full_name": "OpenDriveLab/OpenScene", "stars": 452, "why": "Occupancy benchmark", "kind": "implementation"}
+    ],
+    "autonomous-driving": [
+      {"full_name": "commaai/openpilot", "stars": 63600, "why": "Open driving stack", "kind": "implementation"},
+      {"full_name": "OpenDriveLab/UniAD", "stars": 4748, "why": "Planning-oriented E2E AD", "kind": "implementation"}
+    ],
+    "road-surface-reconstruction": [
+      {"full_name": "PJLab-ADG/neuralsim", "stars": 671, "why": "StreetSurf", "kind": "implementation"}
+    ],
+    "pothole-road-damage-mapping": [
+      {"full_name": "sekilab/RoadDamageDetector", "stars": 800, "why": "Tokyo RDD dataset + models", "kind": "implementation"}
+    ],
+    "pedestrian-cyclist-modeling": [
+      {"full_name": "ziyc/drivestudio", "stars": 1257, "why": "OmniRe SMPL-Gaussians", "kind": "implementation"}
+    ],
+    "vehicle-shape-reconstruction": [
+      {"full_name": "zju3dv/street_gaussians", "stars": 1391, "why": "Per-vehicle Gaussian cloud", "kind": "implementation"}
+    ],
+    "intersection-digital-twins": [
+      {"full_name": "carla-simulator/carla", "stars": 14369, "why": "Junction host", "kind": "simulator"}
+    ],
+    "hd-map-generation": [
+      {"full_name": "hustvl/MapTR", "stars": 1544, "why": "Transformer HD-map construction", "kind": "implementation"}
+    ],
+    "collision-freespace-estimation": [
+      {"full_name": "weiyithu/SurroundOcc", "stars": 1080, "why": "Dense occupancy", "kind": "implementation"}
+    ],
+    "av-simulation": [
+      {"full_name": "carla-simulator/carla", "stars": 14369, "why": "Open urban driving simulator", "kind": "simulator"}
+    ]
+  }
+}
