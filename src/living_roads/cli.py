@@ -37,7 +37,7 @@ def main(argv: list[str] | None = None) -> int:
             print(f"## {card['name']} — {card['subtitle']}")
             print(f"   {card['blurb']}")
             for repo in card["repos"][:3]:
-                print(f"   - {repo['full_name']} ({repo.get('stars', '?')}*) {repo.get('why','')}")
+                print(f"   - {repo['full_name']} ({repo.get('stars', '?')}\u2605) {repo.get('why', '')}")
             print()
         return 0
     return 1

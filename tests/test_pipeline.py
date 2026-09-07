@@ -14,10 +14,10 @@ def test_analytic_has_pothole() -> None:
 
 def test_reconstruct_rmse_under_3cm() -> None:
     scene = reconstruct(seed=1)
-    assert scene.metrics['rmse_m'] < 0.03
-    assert scene.metrics['n_gaussians'] > 10
-    assert scene.metrics['n_potholes'] >= 1
-    assert 0.4 < scene.metrics['free_frac'] < 1.0
+    assert scene.metrics["rmse_m"] < 0.03
+    assert scene.metrics["n_gaussians"] > 10
+    assert scene.metrics["n_potholes"] >= 1
+    assert 0.4 < scene.metrics["free_frac"] < 1.0
 
 
 def test_sparse_labels_include_actors() -> None:
@@ -29,10 +29,10 @@ def test_poster_topic_counts() -> None:
     assert len(METHODS) == 8
     assert len(APPLICATIONS) == 9
     slugs = {t.slug for t in all_topics()}
-    assert 'nerf-drive' in slugs
-    assert 'gaussiandrive' in slugs
-    assert 'hd-map-generation' in slugs
-    assert '4d-drivegs' in slugs
+    assert "nerf-drive" in slugs
+    assert "gaussiandrive" in slugs
+    assert "hd-map-generation" in slugs
+    assert "4d-drivegs" in slugs
 
 
 def test_surface_normals_point_up() -> None:
